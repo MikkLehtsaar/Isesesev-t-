@@ -1,7 +1,7 @@
 x,y,z = input('Kolm numbrit: ').split(',')
-x = int(x)
-y = int(y)
-z = int(z)
+x = float(x)
+y = float(y)
+z = float(z)
 if x == y and z == y:
     korrutis = x * y * z
     print(korrutis)
